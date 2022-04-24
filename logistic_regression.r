@@ -14,7 +14,7 @@ summary(modelo123)
 
 step(object = modelo123, direction = "both", trace = 1)
 
-#eliminamos las variables con un p-valor superior a 0,05
+# Eliminamos las variables con un p-valor superior a 0,05
 
 modeloFinal <- glm(COVID_19_NUM ~ goles_local  + primera_visitante + remates_local + remates_visitante + 
                      faltas_local + faltas_visitante + corners_local + 
